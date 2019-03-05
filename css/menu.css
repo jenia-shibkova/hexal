@@ -6,14 +6,10 @@
   margin: 0 auto;
   min-height: 63px;
   width: 400px;
-  /* justify-content: space-between; */
-  /* outline: 2px solid red; */
   align-items: stretch;
-
 }
 
 .menu__item {
-  /* outline: 1px solid white; */
   align-content: center;
 
 }

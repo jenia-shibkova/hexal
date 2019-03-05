@@ -3,7 +3,7 @@
   margin-bottom: 100px;
 }
 
-.hexagon__wrapper {
+.hexagon__row {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -11,15 +11,15 @@
   justify-content: space-between;
 }
 
-.hexagon__wrapper--1 {
+.hexagon__row--1 {
   width: 780px;
 }
 
-.hexagon__wrapper--2 {
+.hexagon__row--2 {
   margin-top: -42px;
 }
 
-.hexagon__wrapper--3 {
+.hexagon__row--3 {
   width: 780px;
   margin-top: -42px;
 }

@@ -2,27 +2,3 @@
   width: 1020px;
   margin: 0 auto;
 }
-
-/* вспомогательный  */
-.extra {
-  width: 1020px;
-  margin: 0 auto;
-  min-height: 1732px; /*временно*/
-}
-
-.extra::after {
-  content: "";
-  width: 1020px;
-  margin: 0 auto;
-  height: 1732px;
-  background-image: url("../assets/img/hexal.jpg");
-  background-repeat: no-repeat;
-  background-position: 50%;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
