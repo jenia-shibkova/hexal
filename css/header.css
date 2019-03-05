@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #323232;
+}
+
+.header__logo {
+  display: block;
+  position: absolute;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -20px);
+  width: 66px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.header__logo-img {
+  width: 66px;
+  height: 55px;
+  z-index: 1;
+}

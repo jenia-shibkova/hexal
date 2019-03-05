@@ -1,0 +1,29 @@
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 0 auto;
+  min-height: 63px;
+  width: 400px;
+  /* justify-content: space-between; */
+  /* outline: 2px solid red; */
+  align-items: stretch;
+
+}
+
+.menu__item {
+  /* outline: 1px solid white; */
+  align-content: center;
+
+}
+
+.menu__item a {
+  display: block;
+  padding: 12px;
+  padding-top: 30px;
+}
+
+.menu__item:nth-of-type(2) {
+  margin-right: 114px;
+}
