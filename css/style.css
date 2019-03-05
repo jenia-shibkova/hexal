@@ -3,6 +3,7 @@
 @import url("menu.css");
 @import url("container.css");
 @import url("hexagon.css");
+@import url("slider.css");
 
 body {
   margin: 0;

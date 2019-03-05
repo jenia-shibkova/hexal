@@ -1,0 +1,58 @@
+.slider__pagination {
+  font-size: 0;
+  line-height: 0;
+  width: 960px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #e4e9eb;
+  margin-bottom: 11px;
+  /* outline: 1px solid green; */
+}
+
+.slider input[type="radio"] {
+  display: none;
+}
+
+.slider__label {
+  display: inline-block;
+  margin-right: 3px;
+  vertical-align: top;
+  height: 6px;
+  width: 6px;
+  background-color: #ddd2c5;
+  cursor: pointer;
+}
+
+.slider__label:last-of-type {
+  margin-right: 0;
+}
+
+.slider__btn-1:checked ~ .slider__item-01,
+.slider__btn-2:checked ~ .slider__item-02,
+.slider__btn-3:checked ~ .slider__item-03,
+.slider__btn-4:checked ~ .slider__item-04,
+.slider__btn-5:checked ~ .slider__item-05,
+.slider__btn-6:checked ~ .slider__item-06 {
+  display: block;
+}
+
+.slider__btn-1:checked ~ .slider__pagination label[for="slider__btn-1"],
+.slider__btn-2:checked ~ .slider__pagination label[for="slider__btn-2"],
+.slider__btn-3:checked ~ .slider__pagination label[for="slider__btn-3"],
+.slider__btn-4:checked ~ .slider__pagination label[for="slider__btn-4"],
+.slider__btn-5:checked ~ .slider__pagination label[for="slider__btn-5"],
+.slider__btn-6:checked ~ .slider__pagination label[for="slider__btn-6"] {
+  background-color: #8b8784;
+}
+
+.slider__item {
+  display: none;
+}
+.slider__item-01,
+.slider__item-02,
+.slider__item-04,
+.slider__item-05,
+.slider__item-06 {
+  background: #cccc;
+  min-height: 546px;
+  min-width: 1020px;
+}
