@@ -1,0 +1,43 @@
+.summary {
+  background: #2eb398;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.summary__wrapper {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.summary__wrapper .hexagon {
+  float: left;
+  margin-right: 20px;
+}
+
+.summary__wrapper .hexagon__layer-2 {
+  background-image: url("../assets/img/person.jpg");
+}
+
+.summary__title {
+  color: #d7fcf5;
+  font-family: "MarvenPro", Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 2px;
+
+}
+
+.summary__subtitle {
+  color: #20816d;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.summary__content {
+  color: #d7fcf5;
+  font-size: 12px;
+  line-height: 21px;
+  margin: 0;
+}

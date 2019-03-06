@@ -1,9 +1,12 @@
 @import url("normalize.css");
+@import url("fonts.css");
 @import url("header.css");
 @import url("menu.css");
 @import url("container.css");
 @import url("hexagon.css");
 @import url("slider.css");
+@import url("summary.css");
+@import url("social.css");
 
 body {
   margin: 0;
@@ -39,4 +42,10 @@ a:hover, a:active {
   padding: 0;
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
