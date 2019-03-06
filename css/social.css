@@ -1,6 +1,6 @@
 .social {
   position: relative;
-  bottom: -40px;
+  bottom: -38px;
 }
 
 .social__link {
@@ -17,7 +17,7 @@
 }
 
 .social__item {
-  height: 25px;
-  width: 25px;
+  height: 24px;
+  width: 24px;
   background-color: #acddd7;
 }

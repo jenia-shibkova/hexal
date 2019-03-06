@@ -7,6 +7,9 @@
 @import url("slider.css");
 @import url("summary.css");
 @import url("social.css");
+@import url("feedback.css");
+@import url("button.css");
+@import url("contacts.css");
 
 body {
   margin: 0;

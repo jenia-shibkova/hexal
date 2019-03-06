@@ -1,0 +1,77 @@
+.feedback {
+  background: #323232;
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+
+.feedback__wrapper {
+  width: 780px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback__form {
+  width: 580px;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback__form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.feedback legend {
+  color: #e0e0e0;
+  font-size: 30px;
+  font-family: "MarvenPro", Arial, sans-serif;
+
+  padding: 0;
+  margin-bottom: 6px;
+}
+
+.feedback__description {
+  font-family: "MarvenPro", Arial, sans-serif;
+  color: #bebebe;
+  margin: 0;
+  padding-left: 4px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.feedback__form input,
+textarea {
+  display: block;
+  width: 100%;
+  background: #454545;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 17px;
+  padding: 8px 15px;
+  font-size: 12px;
+  line-height: 21px;
+  color: #bebebe;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder,
+:-ms-input-placeholder {
+  color: #bebebe;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.feedback__form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.feedback__button {
+  float: right;
+}

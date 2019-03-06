@@ -144,19 +144,42 @@
 
       </article>
     </section>
+
+    <section class="feedback">
+      <h2 class="visually-hidden">Feedback & Contacts</h2>
+      <div class="feedback__wrapper">
+        <form class="feedback__form" action="#" method="POST">
+          <fieldset class="clearfix">
+            <legend>Get in Touch</legend>
+            <p class="feedback__description">In order to get in touch use the contact form below:</p>
+            <input type="text" placeholder="Name (required)" required/>
+            <input type="email" name="email" placeholder="Email (required)" required/>
+            <input type="text" name="subject" placeholder="Subject"/>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
+          </fieldset>
+          <button class="button feedback__button" type="submit">Send</button>
+        </form>
+
+        <section class="contacts">
+          <h3 class="visually-hidden">Contacts</h3>
+          <p class="contacts__description"><strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
+             Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed
+              nunc et tortor luctus faucibus morbi vitae.</p>
+          <ul class="contacts__wrapper">
+            <li><address class="contacts__item contacts__item--address">Elm St. 14/05 Lost City</address></li>
+            <li><a class="contacts__item contacts__item--phone" href="tel:+ 3528 331 86 35">+ 3528 331 86 35</a></li>
+            <li><a class="contacts__item contacts__item--email" href="mailto:info@hexalcorp.com">info@hexalcorp.com</a></li>
+          </ul>
+        </section>
+      </div>
+
+
+    </section>
+
   </main>
 
   <footer class="page-footer">
-    <form action="" method="POST">
-      <fieldset>
-        <legend>Get in touch</legend>
-        <input type="text" placeholder="Name" required/>
-        <input type="email" placeholder="Email" required/>
-        <input type="text" placeholder="Subject"/>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
-      </fieldset>
-      <button type="submit">Send</button>
-    </form>
+
   </footer>
 
 </body>
