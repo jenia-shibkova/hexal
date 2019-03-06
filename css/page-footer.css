@@ -1,0 +1,13 @@
+.page-footer {
+  background: #222222;
+  min-height: 44px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.page-footer__copyright {
+  margin-left: 40px;
+  color: #454545;
+  font-size: 12px;
+  font-family: "MarvenPro", Arial, sans-serif;
+}
