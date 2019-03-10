@@ -1,7 +1,7 @@
 .summary {
   background: #2eb398;
-  padding-top: 13px;
-  padding-bottom: 11px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .summary__wrapper {
@@ -28,6 +28,7 @@
   font-weight: 400;
   font-size: 30px;
   margin: 0;
+  margin-top: 1px;
   margin-bottom: 2px;
 }
 
