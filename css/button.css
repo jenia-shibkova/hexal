@@ -1,5 +1,6 @@
 .button {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
   padding: 8px 28px;
   font-size: 12px;
@@ -20,5 +21,5 @@
 .button:hover,
 .button:focus,
 .button:active {
-
+  background: #04ac95;
 }

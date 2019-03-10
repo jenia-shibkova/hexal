@@ -2,8 +2,12 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
   min-height: 63px;
 }
@@ -24,7 +28,9 @@
   border-radius: 50%;
   background: #494e62;
   top: 50%;
-  transform: translate(11px, 9px);
+  -webkit-transform: translate(11px, 9px);
+      -ms-transform: translate(11px, 9px);
+          transform: translate(11px, 9px);
 }
 
 .menu__item:nth-of-type(2) {

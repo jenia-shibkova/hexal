@@ -47,7 +47,8 @@
   width: 11px;
   height: 11px;
   -ms-transform: translate( 50%, 50%);
-  transform: translate( 50%, 50%);
+  -webkit-transform: translate( 50%, 50%);
+          transform: translate( 50%, 50%);
   left: -5px;
   background-position: center;
   background-repeat: no-repeat;
