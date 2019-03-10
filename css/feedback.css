@@ -1,11 +1,20 @@
 .feedback {
   background: #323232;
-  padding-top: 67px;
-  padding-bottom: 67px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .feedback__wrapper {
-  width: 780px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 54px;
+  padding-bottom: 51px;
+  border-top: 1px solid #2b2b2b;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.feedback__inner-wrapper {
+  max-width: 780px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -29,17 +38,16 @@
   color: #e0e0e0;
   font-size: 30px;
   font-family: "MarvenPro", Arial, sans-serif;
-
   padding: 0;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .feedback__description {
   font-family: "MarvenPro", Arial, sans-serif;
   color: #bebebe;
   margin: 0;
-  padding-left: 4px;
-  margin-bottom: 16px;
+  padding-left: 2px;
+  margin-bottom: 18px;
   font-size: 18px;
   line-height: 21px;
 }
@@ -59,13 +67,27 @@ textarea {
   font-family: "Lato", "Arial", sans-serif;
 }
 
-::-webkit-input-placeholder,
-::-moz-placeholder,
-:-moz-placeholder,
+::-webkit-input-placeholder {
+  color: #bebebe;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+
 :-ms-input-placeholder {
   color: #bebebe;
   font-family: "Lato", "Arial", sans-serif;
 }
+
+::-moz-placeholder {
+  color: #bebebe;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+:-moz-placeholder {
+  color: #bebebe;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
 
 .feedback__form textarea {
   resize: none;

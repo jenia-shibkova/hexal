@@ -1,12 +1,16 @@
 .summary {
   background: #2eb398;
-  padding-top: 68px;
-  padding-bottom: 63px;
+  padding-top: 13px;
+  padding-bottom: 11px;
 }
 
 .summary__wrapper {
   width: 780px;
   margin: 0 auto;
+  padding: 55px 20px;
+  padding-bottom: 52px;
+  border-left: 1px solid #219b84;
+  border-right: 1px solid #219b84;
 }
 
 .summary__wrapper .hexagon {
@@ -21,10 +25,10 @@
 .summary__title {
   color: #d7fcf5;
   font-family: "MarvenPro", Arial, sans-serif;
+  font-weight: 400;
   font-size: 30px;
   margin: 0;
   margin-bottom: 2px;
-
 }
 
 .summary__subtitle {
@@ -33,6 +37,7 @@
   line-height: 21px;
   margin: 0;
   margin-bottom: 13px;
+  font-weight: 400;
 }
 
 .summary__content {

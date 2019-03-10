@@ -3,23 +3,40 @@
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
   margin: 0 auto;
   min-height: 63px;
-  width: 400px;
-  align-items: stretch;
-}
-
-.menu__item {
-  align-content: center;
-
 }
 
 .menu__item a {
   display: block;
   padding: 12px;
-  padding-top: 30px;
+  padding-top: 32px;
+  font-size: 10px;
+  position: relative;
+}
+
+.menu__item--dotted a::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #494e62;
+  top: 50%;
+  transform: translate(11px, 9px);
 }
 
 .menu__item:nth-of-type(2) {
-  margin-right: 114px;
+  margin-right: 112px;
+}
+
+.menu__item:nth-of-type(3) {
+  position: relative;
+  left: 4px;
+}
+
+.menu__item:nth-of-type(4) {
+  position: relative;
+  left: 4px;
 }

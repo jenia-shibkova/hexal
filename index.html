@@ -16,10 +16,10 @@
       </a>
       <nav class="header__navigation container">
         <ul class="menu">
-          <li class="menu__item"><a href="#">Portfolio</a></li>
-          <li class="menu__item"><a href="#">About</a></li>
-          <li class="menu__item"><a href="#">Blog</a></li>
-          <li class="menu__item"><a href="#">Get in touch</a></li>
+          <li class="menu__item menu__item--dotted"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu__item"><a href="#about">About</a></li>
+          <li class="menu__item menu__item--dotted"><a href="#">Blog</a></li>
+          <li class="menu__item"><a href="#feedback">Get in touch</a></li>
         </ul>
       </nav>
     </div>
@@ -38,7 +38,7 @@
       <section class="hexagon-container slider__item slider__item-01"></section>
       <section class="hexagon-container slider__item slider__item-02"></section>
 
-      <section class="hexagon-container slider__item slider__item-03">
+      <section class="hexagon-container slider__item slider__item-03"  id="portfolio">
         <div class="hexagon__row hexagon__row--1">
           <div class="hexagon">
             <div class="hexagon__layer-1"><div class="hexagon__layer-2 hexagon__layer-2--img-1"></div></div>
@@ -103,7 +103,7 @@
 
     </div>
 
-    <section class="summary">
+    <section class="summary" id="about">
       <h2 class="visually-hidden">Smith Anderson</h2>
       <article class="summary__wrapper clearfix">
         <div class="hexagon">
@@ -145,32 +145,34 @@
       </article>
     </section>
 
-    <section class="feedback">
+    <section class="feedback" id="feedback">
       <h2 class="visually-hidden">Feedback & Contacts</h2>
       <div class="feedback__wrapper">
-        <form class="feedback__form" action="#" method="POST">
-          <fieldset class="clearfix">
-            <legend>Get in Touch</legend>
-            <p class="feedback__description">In order to get in touch use the contact form below:</p>
-            <input type="text" placeholder="Name (required)" required/>
-            <input type="email" name="email" placeholder="Email (required)" required/>
-            <input type="text" name="subject" placeholder="Subject"/>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
-          </fieldset>
-          <button class="button feedback__button" type="submit">Send</button>
-        </form>
+        <div class="feedback__inner-wrapper">
+          <form class="feedback__form" action="#" method="POST">
+            <fieldset class="clearfix">
+              <legend>Get in Touch</legend>
+              <p class="feedback__description">In order to get in touch use the contact form below:</p>
+              <input type="text" placeholder="Name (Required)" required/>
+              <input type="email" name="email" placeholder="Email (Required)" required/>
+              <input type="text" name="subject" placeholder="Subject"/>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
+            </fieldset>
+            <button class="button feedback__button" type="submit">Send</button>
+          </form>
 
-        <section class="contacts">
-          <h3 class="visually-hidden">Contacts</h3>
-          <p class="contacts__description"><strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
-             Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed
-              nunc et tortor luctus faucibus morbi vitae.</p>
-          <ul class="contacts__wrapper">
-            <li><address class="contacts__item contacts__item--address">Elm St. 14/05 Lost City</address></li>
-            <li><a class="contacts__item contacts__item--phone" href="tel:+ 3528 331 86 35">+ 3528 331 86 35</a></li>
-            <li><a class="contacts__item contacts__item--email" href="mailto:info@hexalcorp.com">info@hexalcorp.com</a></li>
-          </ul>
-        </section>
+          <section class="contacts">
+            <h3 class="visually-hidden">Contacts</h3>
+            <p class="contacts__description"><strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
+               Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed
+                nunc et tortor luctus faucibus morbi vitae.</p>
+            <ul class="contacts__wrapper">
+              <li><address class="contacts__item contacts__item--address">Elm St. 14/05 Lost City</address></li>
+              <li><a class="contacts__item contacts__item--phone" href="tel:+ 3528 331 86 35">+ 3528 331 86 35</a></li>
+              <li><a class="contacts__item contacts__item--email" href="mailto:info@hexalcorp.com">info@hexalcorp.com</a></li>
+            </ul>
+          </section>
+        </div>
       </div>
 
     </section>
